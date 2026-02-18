@@ -1,4 +1,4 @@
-# TuPrimeraPaginaKaufmann# TuPrimeraPaginaKaufmann
+# TuPrimeraPaginaKaufmann
 
 Proyecto realizado en Django como primer trabajo práctico del curso.
 
