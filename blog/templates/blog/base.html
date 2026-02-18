@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Blog</title>
+</head>
+
+<body>
+
+    <h1>Mini Blog Django</h1>
+
+    <nav>
+        <a href="/">Inicio</a> |
+        <a href="{% url 'crear_autor' %}">Nuevo Autor</a> |
+        <a href="{% url 'crear_post' %}">Nuevo Post</a> |
+        <a href="{% url 'crear_comentario' %}">Nuevo Comentario</a>|
+        <a href="{% url 'buscar_post' %}">Buscar Post</a>
+    </nav>
+
+    <hr>
+
+    {% block contenido %}
+    {% endblock %}
+
+</body>
+
+</html>
